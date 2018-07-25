@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		473864402108634600B4BDAF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4738643F2108634600B4BDAF /* AppDelegate.swift */; };
+		473864422108634600B4BDAF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 473864412108634600B4BDAF /* ViewController.swift */; };
+		473864452108634600B4BDAF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 473864432108634600B4BDAF /* Main.storyboard */; };
+		473864472108634700B4BDAF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 473864462108634700B4BDAF /* Assets.xcassets */; };
+		4738644A2108634700B4BDAF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 473864482108634700B4BDAF /* LaunchScreen.storyboard */; };
+		473864552108634700B4BDAF /* zavrsni_zadatakTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 473864542108634700B4BDAF /* zavrsni_zadatakTests.swift */; };
+		473864602108634700B4BDAF /* zavrsni_zadatakUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4738645F2108634700B4BDAF /* zavrsni_zadatakUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		473864512108634700B4BDAF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 473864342108634600B4BDAF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4738643B2108634600B4BDAF;
+			remoteInfo = "zavrsni-zadatak";
+		};
+		4738645C2108634700B4BDAF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 473864342108634600B4BDAF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4738643B2108634600B4BDAF;
+			remoteInfo = "zavrsni-zadatak";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4738643C2108634600B4BDAF /* zavrsni-zadatak.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "zavrsni-zadatak.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4738643F2108634600B4BDAF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		473864412108634600B4BDAF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		473864442108634600B4BDAF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		473864462108634700B4BDAF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		473864492108634700B4BDAF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4738644B2108634700B4BDAF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		473864502108634700B4BDAF /* zavrsni-zadatakTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "zavrsni-zadatakTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		473864542108634700B4BDAF /* zavrsni_zadatakTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = zavrsni_zadatakTests.swift; sourceTree = "<group>"; };
+		473864562108634700B4BDAF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4738645B2108634700B4BDAF /* zavrsni-zadatakUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "zavrsni-zadatakUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4738645F2108634700B4BDAF /* zavrsni_zadatakUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = zavrsni_zadatakUITests.swift; sourceTree = "<group>"; };
+		473864612108634700B4BDAF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		473864392108634600B4BDAF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4738644D2108634700B4BDAF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		473864582108634700B4BDAF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		473864332108634600B4BDAF = {
+			isa = PBXGroup;
+			children = (
+				4738643E2108634600B4BDAF /* zavrsni-zadatak */,
+				473864532108634700B4BDAF /* zavrsni-zadatakTests */,
+				4738645E2108634700B4BDAF /* zavrsni-zadatakUITests */,
+				4738643D2108634600B4BDAF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4738643D2108634600B4BDAF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4738643C2108634600B4BDAF /* zavrsni-zadatak.app */,
+				473864502108634700B4BDAF /* zavrsni-zadatakTests.xctest */,
+				4738645B2108634700B4BDAF /* zavrsni-zadatakUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4738643E2108634600B4BDAF /* zavrsni-zadatak */ = {
+			isa = PBXGroup;
+			children = (
+				4738643F2108634600B4BDAF /* AppDelegate.swift */,
+				473864412108634600B4BDAF /* ViewController.swift */,
+				473864432108634600B4BDAF /* Main.storyboard */,
+				473864462108634700B4BDAF /* Assets.xcassets */,
+				473864482108634700B4BDAF /* LaunchScreen.storyboard */,
+				4738644B2108634700B4BDAF /* Info.plist */,
+			);
+			path = "zavrsni-zadatak";
+			sourceTree = "<group>";
+		};
+		473864532108634700B4BDAF /* zavrsni-zadatakTests */ = {
+			isa = PBXGroup;
+			children = (
+				473864542108634700B4BDAF /* zavrsni_zadatakTests.swift */,
+				473864562108634700B4BDAF /* Info.plist */,
+			);
+			path = "zavrsni-zadatakTests";
+			sourceTree = "<group>";
+		};
+		4738645E2108634700B4BDAF /* zavrsni-zadatakUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4738645F2108634700B4BDAF /* zavrsni_zadatakUITests.swift */,
+				473864612108634700B4BDAF /* Info.plist */,
+			);
+			path = "zavrsni-zadatakUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4738643B2108634600B4BDAF /* zavrsni-zadatak */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 473864642108634700B4BDAF /* Build configuration list for PBXNativeTarget "zavrsni-zadatak" */;
+			buildPhases = (
+				473864382108634600B4BDAF /* Sources */,
+				473864392108634600B4BDAF /* Frameworks */,
+				4738643A2108634600B4BDAF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "zavrsni-zadatak";
+			productName = "zavrsni-zadatak";
+			productReference = 4738643C2108634600B4BDAF /* zavrsni-zadatak.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4738644F2108634700B4BDAF /* zavrsni-zadatakTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 473864672108634700B4BDAF /* Build configuration list for PBXNativeTarget "zavrsni-zadatakTests" */;
+			buildPhases = (
+				4738644C2108634700B4BDAF /* Sources */,
+				4738644D2108634700B4BDAF /* Frameworks */,
+				4738644E2108634700B4BDAF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				473864522108634700B4BDAF /* PBXTargetDependency */,
+			);
+			name = "zavrsni-zadatakTests";
+			productName = "zavrsni-zadatakTests";
+			productReference = 473864502108634700B4BDAF /* zavrsni-zadatakTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4738645A2108634700B4BDAF /* zavrsni-zadatakUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4738646A2108634700B4BDAF /* Build configuration list for PBXNativeTarget "zavrsni-zadatakUITests" */;
+			buildPhases = (
+				473864572108634700B4BDAF /* Sources */,
+				473864582108634700B4BDAF /* Frameworks */,
+				473864592108634700B4BDAF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4738645D2108634700B4BDAF /* PBXTargetDependency */,
+			);
+			name = "zavrsni-zadatakUITests";
+			productName = "zavrsni-zadatakUITests";
+			productReference = 4738645B2108634700B4BDAF /* zavrsni-zadatakUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		473864342108634600B4BDAF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Luka Lovretić";
+				TargetAttributes = {
+					4738643B2108634600B4BDAF = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					4738644F2108634700B4BDAF = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 4738643B2108634600B4BDAF;
+					};
+					4738645A2108634700B4BDAF = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 4738643B2108634600B4BDAF;
+					};
+				};
+			};
+			buildConfigurationList = 473864372108634600B4BDAF /* Build configuration list for PBXProject "zavrsni-zadatak" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 473864332108634600B4BDAF;
+			productRefGroup = 4738643D2108634600B4BDAF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4738643B2108634600B4BDAF /* zavrsni-zadatak */,
+				4738644F2108634700B4BDAF /* zavrsni-zadatakTests */,
+				4738645A2108634700B4BDAF /* zavrsni-zadatakUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4738643A2108634600B4BDAF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4738644A2108634700B4BDAF /* LaunchScreen.storyboard in Resources */,
+				473864472108634700B4BDAF /* Assets.xcassets in Resources */,
+				473864452108634600B4BDAF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4738644E2108634700B4BDAF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		473864592108634700B4BDAF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		473864382108634600B4BDAF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				473864422108634600B4BDAF /* ViewController.swift in Sources */,
+				473864402108634600B4BDAF /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4738644C2108634700B4BDAF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				473864552108634700B4BDAF /* zavrsni_zadatakTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		473864572108634700B4BDAF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				473864602108634700B4BDAF /* zavrsni_zadatakUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		473864522108634700B4BDAF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4738643B2108634600B4BDAF /* zavrsni-zadatak */;
+			targetProxy = 473864512108634700B4BDAF /* PBXContainerItemProxy */;
+		};
+		4738645D2108634700B4BDAF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4738643B2108634600B4BDAF /* zavrsni-zadatak */;
+			targetProxy = 4738645C2108634700B4BDAF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		473864432108634600B4BDAF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				473864442108634600B4BDAF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		473864482108634700B4BDAF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				473864492108634700B4BDAF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		473864622108634700B4BDAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		473864632108634700B4BDAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		473864652108634700B4BDAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "zavrsni-zadatak/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "llovretic.zavrsni-zadatak";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		473864662108634700B4BDAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "zavrsni-zadatak/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "llovretic.zavrsni-zadatak";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		473864682108634700B4BDAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "zavrsni-zadatakTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "llovretic.zavrsni-zadatakTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/zavrsni-zadatak.app/zavrsni-zadatak";
+			};
+			name = Debug;
+		};
+		473864692108634700B4BDAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "zavrsni-zadatakTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "llovretic.zavrsni-zadatakTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/zavrsni-zadatak.app/zavrsni-zadatak";
+			};
+			name = Release;
+		};
+		4738646B2108634700B4BDAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "zavrsni-zadatakUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "llovretic.zavrsni-zadatakUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "zavrsni-zadatak";
+			};
+			name = Debug;
+		};
+		4738646C2108634700B4BDAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "zavrsni-zadatakUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "llovretic.zavrsni-zadatakUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "zavrsni-zadatak";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		473864372108634600B4BDAF /* Build configuration list for PBXProject "zavrsni-zadatak" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				473864622108634700B4BDAF /* Debug */,
+				473864632108634700B4BDAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		473864642108634700B4BDAF /* Build configuration list for PBXNativeTarget "zavrsni-zadatak" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				473864652108634700B4BDAF /* Debug */,
+				473864662108634700B4BDAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		473864672108634700B4BDAF /* Build configuration list for PBXNativeTarget "zavrsni-zadatakTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				473864682108634700B4BDAF /* Debug */,
+				473864692108634700B4BDAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4738646A2108634700B4BDAF /* Build configuration list for PBXNativeTarget "zavrsni-zadatakUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4738646B2108634700B4BDAF /* Debug */,
+				4738646C2108634700B4BDAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 473864342108634600B4BDAF /* Project object */;
+}
